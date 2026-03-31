@@ -1,0 +1,18 @@
+{
+  "balanceManagerId": "0x46d0d83767dbde75781821171fc9dfd6f895f49d3e858c15b59b80e2078c580f",
+  "caps": {},
+  "openOrders": {},
+  "activityLog": [
+    {
+      "ts": "2026-03-31T09:22:09.548Z",
+      "action": "create_manager",
+      "id": "0x46d0d83767dbde75781821171fc9dfd6f895f49d3e858c15b59b80e2078c580f"
+    }
+  ],
+  "stats": {
+    "totalOrders": 0,
+    "totalSwaps": 0,
+    "totalCancels": 0,
+    "totalDeposits": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "deepbook-agent",
+  "version": "2.0.0",
+  "description": "Conversational DeepBook V3 agent — AI with tool use, raw PTBs, Sui testnet",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/repl.ts",
+    "build": "npx tsc",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.0",
+    "@mysten/sui": "^2.13.2",
+    "blessed": "^0.1.81",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
